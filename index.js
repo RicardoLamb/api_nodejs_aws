@@ -6,7 +6,7 @@ app.get('/', (request, response) => {
     return response.json({message:'Server is up'});
 })
 
-app.get('/atualizou', (request, response)=>{
+app.get('/atualizou', (request, response) => {
     return response.json({message:'atualizou mesmo!'});
 })
 
